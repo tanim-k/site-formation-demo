@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>basic web layout</title>
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -59,6 +65,60 @@
                     <a href="forest">forest</a>
                 </p>
              </footer>
+        </article>
+        <article>
+            <header>
+                <h2>making an eye catchy form</h2>
+            </header>
+            <section>
+                <h3>please fill the form</h3>
+                <form action="">
+                    <label for="name"> your name: 
+                        <input id="name" type="text" placeholder="your name">
+                    </label>
+                    <label for="email"> your email: 
+                        <input id="email" type="text" placeholder="your email">
+                    </label>
+                    <label for="phone"> your phone: 
+                        <input id="phone" type="text" placeholder="your phone">
+                    </label>
+                    <fieldset>
+                        <legend>
+                            pick any of one
+                        </legend>
+                        <label for="html">
+                            <input id="html" type="radio" name="language"> html
+                        </label>
+                        <label for="css">
+                            <input id="css" type="radio" name="language"> css
+                        </label>
+                        <label for="java">
+                            <input type="radio" name="language" id="java">java
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <h2>pick one or more answers</h2>
+                        <label for="bd">
+                            <input type="checkbox" name="country" id="bd"> bd
+                        </label>
+                        <label for="nepal">
+                            <input type="checkbox" name="country" id="nepal"> nepal
+                        </label>
+                        <label for="china">
+                            <input type="checkbox" name="country" id="china"> china
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>special instruction</legend>
+                        <textarea name="" id="" cols="" rows=""></textarea>
+                    </fieldset>
+                    <input type="reset" value="reset">
+                    <input type="submit" value="submit">
+                </form>
+            </section>
+            <footer>
+
+            </footer>
         </article>
     </main>
     <footer>
