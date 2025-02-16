@@ -3,8 +3,14 @@ nav > ul > li{
     margin-right: 20px ;
 }
 
-nav li > a{
+nav li  a{
     text-decoration: none;
+    color: blueviolet;
+    font-size: x-large;
+    font-weight: bold;
+}
+nav li:hover{
+    background-color:darkgray;
 }
 footer{
     text-align: center;
@@ -13,7 +19,9 @@ footer{
 table{
     border-collapse: collapse;
 }
-td, th{
+td, th tfoot{
     border: 1px solid olivedrab;
     padding: 4px 8px;
+    text-align: center;
+    
 }
