@@ -10,3 +10,10 @@ footer{
     text-align: center;
     margin-top: 30px;
 }
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid olivedrab;
+    padding: 4px 8px;
+}
