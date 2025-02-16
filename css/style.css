@@ -25,3 +25,14 @@ td, th tfoot{
     text-align: center;
     
 }
+nav li .dropdown{
+    display: none;
+    position:absolute;
+    background-color: lightblue;
+    text-align: left;
+    padding: 10px;
+    list-style: none;
+}
+nav li:hover .dropdown{
+    display:block;
+}

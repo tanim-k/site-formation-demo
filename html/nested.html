@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Main Navigation Styling */
+.main-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  text-align: center;
+}
+
+.main-nav > li {
+  display: inline-block;
+  position: relative;
+}
+
+.main-nav a {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #333;
+}
+
+/* Sub-menu Styling */
+.sub-menu {
+  display: none; /* Hidden by default */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 100%; /* Position just below the parent item */
+  background-color: #444;
+}
+
+.sub-menu li {
+  display: block;
+}
+
+.sub-menu a {
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Show Sub-menu on Hover */
+.main-nav > li:hover .sub-menu {
+  display: block;
+}
+
+    </style>
+</head>
+<body>
+    <ul class="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a>
+          <ul class="sub-menu">
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Mission</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      
+</body>
+</html>
